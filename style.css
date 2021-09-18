@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/pexels-tim-gouw-47424.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+
+.logo{
+    height:100px ;
+    width:250px ;
+    position: absolute;
+    background:#fff;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    z-index: 2;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.navbar{
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.6) ;
+    position: absolute;  
+}
+
+.txtbox{
+
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 45%;
+    text-align: center;
+
+}
+
+.txtbox h1{
+    font-size: 28px;
+    font-weight:200 ;
+
+}
+
+.txtbox h4{
+    margin: 7px 0 10px;
+    font-weight: 100;
+}
+
+.line{
+    width: 80px;
+    height: 1.1px;
+    margin: auto;
+    background:rgb(245, 194, 27) ;
+}
+
+.content{
+    color: rgb(129, 35, 35);
+    position: absolute;
+    right: 180px;
+    top: 65%;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    font-size: 100px;
+    
+}
+
+.content p{
+    margin: 20px 100px 40px;
+    font-size: 25px;
+    letter-spacing: 01.1px;
+    font-weight: 300;
+}
+
+.btn{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 170px;
+    padding: 10px 0;
+    background:white;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:250px ;
+}
+
+.btn img{
+
+    width: 45px;
+    margin-right: 13px ;
+
+}
+
+#backVideo{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+@media(min-aspect-ratio: 16/9){
+    #backVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    #backVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
